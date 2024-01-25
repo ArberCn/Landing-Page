@@ -13,8 +13,6 @@ body{
     font-weight: bolder;
     color: #F9FAF8;
     display: flex;
-
-
 }
 
 .undertext{
@@ -75,5 +73,70 @@ a{
     
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 5rem;
+    
+}
 
+.ruta{
+   width: 10rem;
+    
+    
+}
+
+.empty{
+    border: 4px solid #3882F6;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 8px;
+}
+
+.main2{
+   margin: auto;
+   text-align: center;
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937;
+   margin: 2rem;
+}
+
+.main3{
+    background-color: #E5E7EB;
+    margin-bottom: 5rem;
+}
+
+.message{
+    padding: 7rem 20rem;
+    
+}
+
+.message2{
+    font-size: 36px;
+    color: #1F2937;
+    
+}
+.endtext{
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+.action{
+    width: 65rem;
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+}
+
+.call{
+    padding: 1.5rem 6rem;
+    display: flex;
+    
+}
 
