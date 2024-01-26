@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -127,16 +128,42 @@ a{
 }
 
 .action{
-    width: 65rem;
+    width: 50rem;
     background-color: #3882F6;
     margin: auto;
     border-radius: 8px;
     color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+
 }
 
 .call{
-    padding: 1.5rem 6rem;
-    display: flex;
-    
+    padding: 3rem 6rem;
 }
 
+.Signup2{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    color: white;
+    height: 2rem;
+    padding: 6px 25px;
+    font-weight: bold;
+}
+
+.uppercall{
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
